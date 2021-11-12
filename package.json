@@ -10,6 +10,7 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "axios": "^0.24.0",
     "expo": "~43.0.2",
     "expo-status-bar": "~1.1.0",
     "react": "17.0.1",
@@ -20,5 +21,6 @@
   "devDependencies": {
     "@babel/core": "^7.12.9"
   },
-  "private": true
+  "private": true,
+  "proxy": "https://coffee.alexflipnote.dev"
 }
